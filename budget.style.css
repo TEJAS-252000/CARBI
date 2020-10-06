@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0,1);
+}
+.leftmenu{
+	width: 35%;
+	
+	float: left;
+}
+
+.rightmenu{
+	width: 64.4%;
+	line-height: 80px;
+	
+	float: right;
+	
+
+}
+.rightmenu ul li{
+	font-family: 'Montserrat', sans-serif;
+	display: inline;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 101px;
+	margin-left: 20px;
+
+}
+.rightmenu a{
+	text-decoration: none;
+}
+
+.rightmenu ul{
+	margin-left: 400px;
+	text-transform: uppercase;
+}
+
+#firstlist{
+	color: yellow;
+}
+
+.rightmenu ul li:hover{
+	color: yellow;
+}
+.brand{
+	background-image: url(images/brand.png);
+	background-color: white;
+	height: 50%;
+}
+
+.budget{
+	background-image: url(images/brand.png);
+	background-color: white;
+	height: 50%;
+}
+
+.bodytype{
+	background-image: url(images/brand.png);
+	background-color: white;
+	height: 50%;
+}
+
+.fueltype{
+	background-image: url(images/brand.png);
+	background-color: white;
+	height: 50%;
+}
+
+
+
+
+.bodypage{
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+	position:absolute;
+	display: inline;
+	border:solid green 2px;
+	
+	}
+
+
+
+
+
+
+.bg{
+	background-color: black;
+	background-size: 100% 100%;
+	height: 754px;
+
+}
+input value{
+	font-family: monospace;
+}

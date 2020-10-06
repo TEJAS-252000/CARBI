@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0,1);
+}
+.leftmenu{
+	width: 35%;
+	
+	float: left;
+}
+
+.rightmenu{
+	width: 64.4%;
+	line-height: 80px;
+	margin-right: 20px;
+	float: left;
+	
+
+}
+.rightmenu ul li{
+	font-family: 'Montserrat', sans-serif;
+	display: inline;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 101px;
+	margin-left: 20px;
+
+}
+.rightmenu a{
+	text-decoration: none;
+}
+
+.rightmenu ul{
+	margin-left: 400px;
+	text-transform: uppercase;
+}
+
+#firstlist{
+	color: yellow;
+}
+
+.rightmenu ul li:hover{
+	color: yellow;
+}
+
+.Car_btn{
+	background-image: url(images/car.jpg);
+	height: 150px;
+	width: 300px;
+	background-color: white;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	background-size: 100% 100%;
+	padding: 10px;
+	
+}
+.Bike_btn{
+	background-image: url(C:\xampp\htdocs\Db\carbi.com\images/bike.jpg);
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	margin-left: 0;
+	margin-top: 150px;
+	border-radius: 15px;
+	padding: 10px;
+	background-size: 100% 110%;
+	
+}
+
+.bodypage{
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+	position:relative;
+	display: inline;
+	
+	}
+.bg{
+	background-color: black;
+	background-size: 100% 100%;
+	height: 754px;
+
+}
+

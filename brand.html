@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/carhome_style.css">
+	<title>bCars</title>
+	<style type="text/css">
+		form{
+			float: left;
+			margin: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="menu">
+			<div class="leftmenu">
+				<img class="logo" src="images/log.jpg" style="height:92px; width: 285px; margin-left: 25px; margin-top: 5px">
+			</div>
+			<div class="rightmenu">
+				<ul>
+					<a href="home.html"><li >Home</li></a>
+					<a href="Car_home.html"><li id="firstlist">Car</li></a>
+					<a href="Bike.html"><li >Bikes</li></a>
+					<a href="Login.html"><li>Log Out</li></a>
+				</ul>
+			</div>
+		</div>
+<CENTER>
+		<div class="bodypage" style="margin-top: 170px;margin-left: 390px;">
+			<form action="php/cars_brand_db.php" method="POST">
+			<input type="submit" value="Maruthi Suzuki" name="br_btn" class="brand" style="height:10em; width:10em; background-size: 100% 100%; color: transparent; background-image: url(images/maruthi.png);border-radius: 2em; margin-left: 50%" /></form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		
+			<form action="php/cars_brand_db.php" method="POST">
+			<input type="submit"; value="Skoda" class="budget" name="br_btn" style="height:10em; width:10em; background-size: 100% 100%;color: transparent; background-image: url(images/skoda.png);border-radius: 2em;margin-left: 50%"/></form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<form action="php/cars_brand_db.php" method="POST">
+			<input type="submit" value="Hyundai" name="br_btn" class="bodytype" style="height:10em; width:10em; background-size: 100% 100%;color: transparent;background-image: url(images/hyundai.png);border-radius: 2em;margin-left: 50%" /></form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+			<form action="php/cars_brand_db.php" method="POST">
+			<input type="submit" value="Toyota" class="fueltype" name="br_btn" style="height:10em; width:10em; background-size: 100% 100%;color: transparent; background-image: url(images/toyota.png);border-radius: 2em;margin-left: 50%" /></form>
+			
+			
+			
+		</div>
+	</center>
+</div>
+</body>
+</html>

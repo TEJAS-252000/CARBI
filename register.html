@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="CSS/carhome_style.css">
+	<style type="text/css">
+			.img{
+				border: solid yellow 3px;
+				width: 250px;
+				height: 160px;
+				border-radius: 15px;
+				box-shadow: 10px 10px 40px yellow;
+
+			}
+			input{
+				width: 175px;
+				margin: 4px;
+				border-radius: 15px;
+			}
+			select{
+				margin: 4px;
+				border-radius: 15px;
+			}
+		</style>
+</head>
+<body bgcolor="BLACK">
+	<form action="php/insert.php" method="POST">
+	<div class="menu">
+		<div class="leftmenu">
+			<img class="logo" src="images/log.jpg" style="height:92px; width: 285px; margin-left: 25px; margin-top: 5px">
+						
+		</div>
+	</div>
+	<center>
+		<div style="font-family: monospace;" class="img">
+			<input type="text"  name="first_name" placeholder=" First Name" style="margin-top: 15px"><br>
+			<input type="password" name="password" placeholder=" Password"><br>
+			<select style="width: 175px;" name="gender" name="Gender">
+				<option disabled selected>--Select Gender--</option>
+				<option>Male</option>
+				<option>Female</option>
+			</select><br>
+			<br>
+			<input type="submit" value="Register" style="margin-top: 15px;" class="button"> 
+		</div>
+		</div>
+	</center>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/carhome_style.css">
+	<title>Fuel Type</title>
+	<style type="text/css">
+		form{
+			float: left;
+			margin: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="menu">
+			<div class="leftmenu">
+				<img class="logo" src="images/log.jpg" style="height:92px; width: 285px; margin-left: 25px; margin-top: 5px">
+			</div>
+			<div class="rightmenu">
+				<ul>
+					<a href="home.html"><li >Home</li></a>
+					<a href="Car_home.html"><li id="firstlist">Car</li></a>
+					<a href="Bike.html"><li  >Bikes</li></a>
+					<a href="Login.html"><li>Log Out</li></a>
+				</ul>
+			</div>
+		</div>
+<center>
+			
+			
+			
+			<div class="bodypage" style="margin-top: 170px;margin-left: 600px;">
+			
+		<form action="php/cars_fl_db.php" method="POST">
+			<input type="submit" value="Petrol" class="brand" name="fuel" style="height:10em; width:10em; background-size: 100% 100%;color: transparent; background-image: url(images/pe.png.png);border-radius: 2em" /></form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<form action="php/cars_fl_db.php" method="POST">
+			<input type="submit" value="Diesel" class="brand" name="fuel" style="height:10em; width:10em; background-size: 100% 100%;color: transparent; background-image: url(images/di.png.png);border-radius: 2em" /></form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		
+			
+			
+		</div>
+	</center>
+</div>
+</body>
+</html>
